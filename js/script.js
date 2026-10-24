@@ -18,19 +18,19 @@
 const products = [
   {
     id: 1,
-    member: "Indah",
+    member: "Jessi",
     category: "Parfum",
-    name: "Gucci Flora Gorgeous Gardenia",
-    image: "https://placehold.co/1080x1080/png?text=Parfum",
-    shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-1"
+    name: "Evangeline Baby Powder",
+    image: "img/jessi-parfum-evangeline-baby-powder.png",
+    shopeeUrl: "https://s.shopee.co.id/4qGePhF73Q"
   },
   {
     id: 2,
-    member: "Marsha",
-    category: "Sepatu",
-    name: "Nama Produk Sepatu",
-    image: "https://placehold.co/1080x1080/png?text=Sepatu",
-    shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-2"
+    member: "Jessi",
+    category: "Parfum",
+    name: "Chloe Narcissus Poeticus",
+    image: "img/jessi-parfum-chloe.png",
+    shopeeUrl: "https://zh.zalora.com.hk/p/chloe-chloe-atelier-des-fleurs-cedrus-intense-eau-de-parfum-50ml-7498638?productQuery=chloe-chloe-atelier-des-fleurs-cedrus-intense-eau-de-parfum-50ml-7498638"
   },
   {
     id: 3,
