@@ -17,6 +17,22 @@
    ===================================================== */
 const products = [
   {
+    id: 14,
+    member: "Intan",
+    category: "Sepatu",
+    name: "COLORBOX - Sepatu Ballet Lace Cokelat",
+    image: "img/intan-colorbox-sepatu-ballet.png",
+    shopeeUrl: "https://s.shopee.co.id/9APdmO4F8v"
+  },
+   {
+    id: 13,
+    member: "Intan",
+    category: "Aksesoris",
+    name: "AOZHLI - Tas Selempang",
+    image: "img/intan-aozhli-tas-selempang.png",
+    shopeeUrl: "https://s.shopee.co.id/2BFtRMDpIG"
+  },
+   {
     id: 12,
     member: "Indah",
     category: "Atasan",
