@@ -17,6 +17,22 @@
    ===================================================== */
 const products = [
   {
+    id: 25,
+    member: "Gita",
+    category: "Parfum",
+    name: "Versace - Bright Crystal EDT",
+    image: "img/gita-versace-bright-edt.png",
+    shopeeUrl: "https://s.shopee.co.id/70L9F76QlQ"
+  },
+   {
+    id: 24,
+    member: "Marsha",
+    category: "Parfum",
+    name: "Tamburins - White Darjeeling",
+    image: "img/marsha-tamburins-parfume.png",
+    shopeeUrl: "https://s.shopee.co.id/7KxzdZ4axv"
+  },
+   {
     id: 23,
     member: "Christy",
     category: "Atasan",
