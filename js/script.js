@@ -17,6 +17,22 @@
    ===================================================== */
 const products = [
   {
+    id: 27,
+    member: "Aralie",
+    category: "Parfum",
+    name: "HMNS - EoN Infusé de Terra EDP",
+    image: "img/aralie-eon-hmns.png",
+    shopeeUrl: "https://s.shopee.co.id/6q1j373aFS"
+  },
+   {
+    id: 26,
+    member: "Raisha",
+    category: "Parfum",
+    name: "Bath & Body Works - Into The Night Fragrance Mist",
+    image: "img/raisha-bath-body-works-into-the-night.png",
+    shopeeUrl: "https://s.shopee.co.id/9V2UDqxTHt"
+  },
+   {
     id: 25,
     member: "Gita",
     category: "Parfum",
