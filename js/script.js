@@ -17,6 +17,22 @@
    ===================================================== */
 const products = [
   {
+    id: 19,
+    member: "Ribka",
+    category: "Atasan",
+    name: "sophistix - Seren Assymetrical Blouse",
+    image: "img/ribka-sophistix-seren-assymetrical-blouse.png",
+    shopeeUrl: "https://s.shopee.co.id/20wTGCFXzs"
+  },
+   {
+    id: 18,
+    member: "Cynthia",
+    category: "Aksesoris",
+    name: "Seiko - Classic SUR523P1 - Jam",
+    image: "img/cynthia-seiko-classic-jam.png",
+    shopeeUrl: "https://s.shopee.co.id/9fLuOA77fV"
+  },
+   {
     id: 17,
     member: "Fiony",
     category: "Aksesoris",
