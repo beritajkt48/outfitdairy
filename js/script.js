@@ -20,7 +20,7 @@ const products = [
     id: 8,
     member: "Marsha",
     category: "Atasan",
-    name: "ADIDAS - SST TRACK TOP Cloud White",
+    name: "ADIDAS - SST TRACK TOP Cloud White - Jaket",
     image: "img/marsha-adidas-sst-track-top-cloud-white.png",
     shopeeUrl: "https://s.shopee.co.id/qkVhiSGy2"
   },
@@ -28,7 +28,7 @@ const products = [
     id: 7,
     member: "Freya",
     category: "Aksesoris",
-    name: "MARJOUR - EMBROIDERED CAP",
+    name: "MARJOUR - EMBROIDERED CAP - Topi",
     image: "img/freya-marjour-embroidered-cap.png",
     shopeeUrl: "https://s.shopee.co.id/1LgmIN7KNd"
   },
@@ -36,7 +36,7 @@ const products = [
     id: 6,
     member: "Cynthia",
     category: "Sepatu",
-    name: "ADIDAS Adizero Pacer",
+    name: "ADIDAS Adizero Pacer - Sepatu",
     image: "img/cynthia-adidas-adizero-pacer.png",
     shopeeUrl: "https://s.shopee.co.id/3g4h43CtwO"
   },
