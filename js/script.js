@@ -17,6 +17,14 @@
    ===================================================== */
 const products = [
   {
+    id: 7,
+    member: "Freya",
+    category: "Aksesoris",
+    name: "MARJOUR - EMBROIDERED CAP",
+    image: "img/freya-marjour-embroidered-cap.png",
+    shopeeUrl: "https://s.shopee.co.id/1LgmIN7KNd"
+  },
+   {
     id: 6,
     member: "Cynthia",
     category: "Sepatu",
