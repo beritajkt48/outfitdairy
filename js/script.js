@@ -17,6 +17,30 @@
    ===================================================== */
 const products = [
   {
+    id: 17,
+    member: "Fiony",
+    category: "Aksesoris",
+    name: "Samo Ondoh - Pocket Utility Bag Veg Pink - Tas",
+    image: "img/fiony-samo-ondoh-pocket-utility.png",
+    shopeeUrl: "https://s.shopee.co.id/BUp4WeNNM"
+  },
+   {
+    id: 16,
+    member: "Erine",
+    category: "Atasan",
+    name: "Femme - Sweater Bulu V-Neck White",
+    image: "img/erine-v-neck-sweeter.png",
+    shopeeUrl: "https://s.shopee.co.id/6L5SPbmO2i"
+  },
+   {
+    id: 15,
+    member: "Greesel",
+    category: "Atasan",
+    name: "Studio Rue - Lacy Tee Top Offshoulder Teal - Top Tshirt",
+    image: "img/greesel-studio-rue-lacy-tee-top.png",
+    shopeeUrl: "https://s.shopee.co.id/2VsjqPnMOV"
+  },
+   {
     id: 14,
     member: "Intan",
     category: "Sepatu",
