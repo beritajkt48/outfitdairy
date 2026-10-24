@@ -17,6 +17,38 @@
    ===================================================== */
 const products = [
   {
+    id: 12,
+    member: "Indah",
+    category: "Atasan",
+    name: "Sejauh Mata Memandang - Baju Santai Ayam Hias",
+    image: "img/indah-sejauh-mata-memandang-baju-santai.png",
+    shopeeUrl: "https://s.shopee.co.id/2BFtQlastE"
+  },
+   {
+    id: 11,
+    member: "Kimmy",
+    category: "Atasan",
+    name: "NUDETHELABEL - Cupid Top Hot Pink",
+    image: "img/kimmy-nudethelabel-cupid-top-hot.png",
+    shopeeUrl: "https://s.shopee.co.id/AUv1Lua8hk"
+  },
+   {
+    id: 10,
+    member: "Anindya",
+    category: "Atasan",
+    name: "Wearing BENA - Xena - Outer Poncho Rajut Bali",
+    image: "img/anindya-wearing-bena-xena-outer.png",
+    shopeeUrl: "https://s.shopee.co.id/6VOsaKz4uD"
+  },
+   {
+    id: 9,
+    member: "Kathrina",
+    category: "Atasan",
+    name: "NEULLA - Lunet Suede - Jaket",
+    image: "img/kathrina-neulla-lunet-suede.png",
+    shopeeUrl: "https://s.shopee.co.id/qkVpiPtz9"
+  },
+   {
     id: 8,
     member: "Marsha",
     category: "Atasan",
