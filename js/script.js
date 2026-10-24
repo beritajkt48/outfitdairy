@@ -17,6 +17,38 @@
    ===================================================== */
 const products = [
   {
+    id: 23,
+    member: "Christy",
+    category: "Atasan",
+    name: "COLORBOX x Liunic - Contrast Collar Stripes Shirt",
+    image: "img/christy-colorbox-liunic-contrast.png",
+    shopeeUrl: "https://s.shopee.co.id/9V2UCpaalt"
+  },
+   {
+    id: 22,
+    member: "Freya",
+    category: "Aksesoris",
+    name: "New Era - 9TWENTY Oakland Athletics Cap - Topi",
+    image: "img/freya-newera-9twenty.png",
+    shopeeUrl: "https://s.shopee.co.id/LoFHo0Wia"
+  },
+   {
+    id: 21,
+    member: "Lana",
+    category: "Atasan",
+    name: "MAMAMARA - Kardigan Rajut Bordir Tulip",
+    image: "img/lana-mamamara-cardingan.png",
+    shopeeUrl: "https://s.shopee.co.id/qkVsZBbFo"
+  },
+   {
+    id: 20,
+    member: "Lily",
+    category: "Aksesoris",
+    name: "Longchamp - 3D Handbag XS Leather - Tas",
+    image: "img/lily-longchamp-3d-handbag.png",
+    shopeeUrl: "https://s.shopee.co.id/4fxERJmg8W"
+  },
+   {
     id: 19,
     member: "Ribka",
     category: "Atasan",
