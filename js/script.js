@@ -17,7 +17,7 @@
    ===================================================== */
 const products = [
   {
-    id: 1,
+    id: 5,
     member: "Jessi",
     category: "Parfum",
     name: "Evangeline Baby Powder",
@@ -25,7 +25,7 @@ const products = [
     shopeeUrl: "https://s.shopee.co.id/4qGePhF73Q"
   },
   {
-    id: 2,
+    id: 4,
     member: "Jessi",
     category: "Parfum",
     name: "Chloe Narcissus Poeticus",
@@ -41,7 +41,7 @@ const products = [
     shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-3"
   },
   {
-    id: 4,
+    id: 2,
     member: "Gracia",
     category: "Bawahan",
     name: "Nama Produk Bawahan",
@@ -49,7 +49,7 @@ const products = [
     shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-4"
   },
   {
-    id: 5,
+    id: 1,
     member: "Zee",
     category: "Aksesoris",
     name: "Nama Produk Aksesoris",
