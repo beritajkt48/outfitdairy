@@ -34,27 +34,27 @@ const products = [
   },
   {
     id: 3,
-    member: "Freya",
-    category: "Atasan",
-    name: "Nama Produk Atasan",
-    image: "https://placehold.co/1080x1080/png?text=Atasan",
-    shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-3"
+    member: "Marsha",
+    category: "Parfum",
+    name: "Alchemist Fragrance",
+    image: "img/marsha-pink-laundry.png",
+    shopeeUrl: "https://s.shopee.co.id/6L5SDfhacn"
   },
   {
     id: 2,
-    member: "Gracia",
-    category: "Bawahan",
-    name: "Nama Produk Bawahan",
-    image: "https://placehold.co/1080x1080/png?text=Bawahan",
-    shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-4"
+    member: "Lia",
+    category: "Parfum",
+    name: "Crusita",
+    image: "img/lia-crusita-es-teh-manis.png",
+    shopeeUrl: "https://s.shopee.co.id/6L5SE2z6rR"
   },
   {
     id: 1,
-    member: "Zee",
-    category: "Aksesoris",
-    name: "Nama Produk Aksesoris",
-    image: "https://placehold.co/1080x1080/png?text=Aksesoris",
-    shopeeUrl: "https://shopee.co.id/GANTI-DENGAN-LINK-PRODUK-5"
+    member: "Raisha",
+    category: "Parfum",
+    name: "SAFF & Co. XOCOLATL",
+    image: "img/raisha-saff-co-xocolatl.png",
+    shopeeUrl: "https://s.shopee.co.id/2Vsjf6O8PN"
   }
 ];
 /* ===================== AKHIR DATA PRODUK ===================== */
