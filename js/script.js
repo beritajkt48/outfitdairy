@@ -17,6 +17,46 @@
    ===================================================== */
 const products = [
   {
+    id: 32,
+    member: "Erine",
+    category: "Atasan",
+    name: "Pomelo Denim Peter Pan Collar Ruffle Trim Dress",
+    image: "img/erine-denim-peter-van.png",
+    shopeeUrl: "https://s.shopee.co.id/4VdoHi8Bxg"
+  },
+   {
+    id: 31,
+    member: "Kimmy",
+    category: "Atasan",
+    name: "Loose Top with Lace",
+    image: "img/kimmy-kaos-lace.png",
+    shopeeUrl: "https://s.shopee.co.id/3VlH5kSQhF"
+  },
+   {
+    id: 30,
+    member: "Oniel",
+    category: "Atasan",
+    name: "Knitted Vest in Mint",
+    image: "img/oniel-vest-rajut-milkan.png",
+    shopeeUrl: "https://s.shopee.co.id/3LRqtHpFiF"
+  },
+   {
+    id: 29,
+    member: "Marsha",
+    category: "Parfum",
+    name: "Marc Jacobs Daisy x Murakami Green EDP",
+    image: "img/marsha-marc-jacobs-daisy-murakami-green.png",
+    shopeeUrl: "https://s.shopee.co.id/6VOseykHLS"
+  },
+   {
+    id: 28,
+    member: "Freya",
+    category: "Atasan",
+    name: "VRTCL Stripe Boxy Crop - Kemeja",
+    image: "img/freya-vrtcl-stripe-boxy-crop.png",
+    shopeeUrl: "https://s.shopee.co.id/5q9BrYV2wp"
+  },
+   {
     id: 27,
     member: "Aralie",
     category: "Parfum",
