@@ -17,6 +17,14 @@
    ===================================================== */
 const products = [
   {
+    id: 8,
+    member: "Marsha",
+    category: "Atasan",
+    name: "ADIDAS - SST TRACK TOP Cloud White",
+    image: "img/marsha-adidas-sst-track-top-cloud-white.png",
+    shopeeUrl: "https://s.shopee.co.id/qkVhiSGy2"
+  },
+   {
     id: 7,
     member: "Freya",
     category: "Aksesoris",
