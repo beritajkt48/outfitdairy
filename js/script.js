@@ -17,6 +17,14 @@
    ===================================================== */
 const products = [
   {
+    id: 6,
+    member: "Cynthia",
+    category: "Sepatu",
+    name: "ADIDAS Adizero Pacer",
+    image: "img/cynthia-adidas-adizero-pacer.png",
+    shopeeUrl: "https://s.shopee.co.id/3g4h43CtwO"
+  },
+   {
     id: 5,
     member: "Jessi",
     category: "Parfum",
