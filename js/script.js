@@ -26,7 +26,7 @@ const products = [
     category: "Atasan",
     name: "Pomelo Denim Peter Pan Collar Ruffle Trim Dress",
     image: "img/erine-denim-peter-van.png",
-    image2: "img/erine-denim-peter-van.png",
+    // image2: "img/erine-denim-peter-van-2.png",
     shopeeUrl: "https://s.shopee.co.id/4VdoHi8Bxg"
   },
   {
@@ -299,8 +299,13 @@ const countEl = document.getElementById("count");
 function createSlide(src, p, label, eager) {
   const slide = document.createElement("div");
   slide.className = "slide";
+  slide.style.flex = "0 0 100%";   // satu slide = selebar kartu
+  slide.style.minWidth = "0";
+  slide.style.aspectRatio = "1 / 1";
 
   const img = document.createElement("img");
+  // gaya inline supaya tidak bentrok dengan aturan ".thumb img" di CSS lama
+  img.style.cssText = "position:static;display:block;width:100%;height:100%;object-fit:contain;";
   img.src = src;
   img.alt = p.name + " rekomendasi " + p.member + " JKT48, kategori " + p.category + label;
   img.width = 1080;
@@ -324,8 +329,13 @@ function createCard(p, index) {
   const thumb = document.createElement("div");
   thumb.className = "thumb";
 
+  thumb.style.position = "relative";
+  thumb.style.overflow = "hidden";
+
   const track = document.createElement("div");
   track.className = "slides";
+  // deretan gambar menyamping (horizontal), digeser dengan translateX
+  track.style.cssText = "display:flex;flex-direction:row;flex-wrap:nowrap;width:100%;transition:transform .35s ease;";
   track.appendChild(createSlide(p.image, p, "", index < 5));
 
   const badge = document.createElement("span");
@@ -344,13 +354,20 @@ function createCard(p, index) {
     nav.className = "slide-nav";
     nav.textContent = "\u203A"; // ›
     nav.setAttribute("aria-label", "Lihat gambar kedua");
+    nav.style.cssText =
+      "position:absolute;top:50%;right:8px;left:auto;transform:translateY(-50%);" +
+      "width:34px;height:34px;border:0;border-radius:50%;background:rgba(255,255,255,.92);" +
+      "color:#4262b2;font-size:24px;line-height:1;cursor:pointer;" +
+      "box-shadow:0 2px 6px rgba(0,0,0,.25);display:flex;align-items:center;" +
+      "justify-content:center;padding:0;z-index:2;";
 
     nav.addEventListener("click", function (e) {
       e.preventDefault();   // jangan buka link Shopee
       e.stopPropagation();
       current = current === 0 ? 1 : 0;
       track.style.transform = "translateX(" + (-current * 100) + "%)";
-      nav.classList.toggle("prev", current === 1);
+      nav.style.right = current === 1 ? "auto" : "8px";
+      nav.style.left = current === 1 ? "8px" : "auto";
       nav.textContent = current === 1 ? "\u2039" : "\u203A"; // ‹ atau ›
       nav.setAttribute("aria-label", current === 1 ? "Kembali ke gambar pertama" : "Lihat gambar kedua");
     });
