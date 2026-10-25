@@ -47,9 +47,17 @@ nav a:hover { color: var(--blue); }
 
 .card { display: flex; flex-direction: column; background: #fff; border-radius: var(--radius); overflow: hidden; border: 1px solid #e5e7eb; transition: box-shadow .2s, transform .2s; }
 @media (hover: hover) { .card:hover { box-shadow: 0 8px 22px rgba(0, 0, 0, .1); transform: translateY(-3px); } }
-.thumb { position: relative; aspect-ratio: 1 / 1; background: #eceef2; }
+.thumb { position: relative; overflow: hidden; aspect-ratio: 1 / 1; background: #eceef2; }
 .thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
-.badge { position: absolute; top: 8px; left: 8px; background: var(--blue); color: #fff; font-size: .72rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
+
+/* Slide gambar (geser ke samping) */
+.slides { display: flex; flex-direction: row; flex-wrap: nowrap; width: 100%; height: 100%; transition: transform .35s ease; }
+.slide { flex: 0 0 100%; min-width: 0; height: 100%; }
+.slide-nav { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); width: 34px; height: 34px; padding: 0; border: 0; border-radius: 50%; background: rgba(255, 255, 255, .92); color: var(--blue); font-size: 24px; line-height: 1; cursor: pointer; box-shadow: 0 2px 6px rgba(0, 0, 0, .25); display: flex; align-items: center; justify-content: center; z-index: 2; }
+.slide-nav:hover { background: #fff; }
+.slide-nav:focus-visible { outline: 3px solid rgba(66, 98, 178, .4); outline-offset: 2px; }
+
+.badge { position: absolute; top: 8px; left: 8px; z-index: 2; background: var(--blue); color: #fff; font-size: .72rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
 .info { padding: 12px; display: flex; flex-direction: column; gap: 2px; flex: 1; }
 .member { font-size: .8rem; font-weight: 700; color: var(--blue); }
 .name { font-weight: 600; font-size: .95rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; min-height: 2.9em; }
