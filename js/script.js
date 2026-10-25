@@ -26,7 +26,7 @@ const products = [
     category: "Atasan",
     name: "Pomelo Denim Peter Pan Collar Ruffle Trim Dress",
     image: "img/erine-denim-peter-van.png",
-    // image2: "img/erine-denim-peter-van-2.png",
+    image2: "img/erine-denim-peter-van.png",
     shopeeUrl: "https://s.shopee.co.id/4VdoHi8Bxg"
   },
   {
