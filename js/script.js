@@ -21,12 +21,39 @@
    ===================================================== */
 const products = [
   {
+    id: 35,
+    member: "Michie",
+    category: "Atasan",
+    name: "MAXI DRESS COQUETTE VIETNAM",
+    image: "img/michie-maxi-dress-coquette1.png",
+    image2: "img/michie-maxi-dress-coquette2.png",
+    shopeeUrl: "https://s.shopee.co.id/8V9zEYmuQr"
+  },
+   {
+    id: 34,
+    member: "Oline",
+    category: "Atasan",
+    name: "Classy Blouse",
+    image: "img/oline-classy-blouse.png",
+    image2: "img/oline-classy-blouse2.png",
+    shopeeUrl: "https://s.shopee.co.id/8V9zEYmuQr"
+  },
+   {
+    id: 33,
+    member: "Feni",
+    category: "Atasan",
+    name: "SAVOIR XO Lacey Set Dress",
+    image: "img/feni-savoir-xo-dress.png",
+    image2: "img/feni-savoir-xo-dress2.png",
+    shopeeUrl: "https://s.shopee.co.id/2LZLssNbSB"
+  },
+   {
     id: 32,
     member: "Erine",
     category: "Atasan",
     name: "Pomelo Denim Peter Pan Collar Ruffle Trim Dress",
     image: "img/erine-denim-peter-van.png",
-    image2: "img/erine-denim-peter-van.png",
+    // image2: "img/erine-denim-peter-van.png",
     shopeeUrl: "https://s.shopee.co.id/4VdoHi8Bxg"
   },
   {
