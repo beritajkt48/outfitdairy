@@ -21,13 +21,31 @@
    ===================================================== */
 const products = [
   {
+    id: 37,
+    member: "Freya",
+    category: "Atasan",
+    name: "Vintage Mesh Dress",
+    image: "img/freya-vintage-mesh-dress.png",
+    image2: "img/freya-vintage-mesh-dress2.png",
+    shopeeUrl: "https://s.shopee.co.id/3qO9h1E5Yt"
+  },
+   {
+    id: 36,
+    member: "Indah",
+    category: "Atasan",
+    name: "Lewiish - Kiara Dress",
+    image: "img/indah-lewlish-dress.png",
+    image2: "img/indah-lewlish-dress2.png",
+    shopeeUrl: "https://s.shopee.co.id/1BNOW3CFEl"
+  },
+   {
     id: 35,
     member: "Michie",
     category: "Atasan",
     name: "MAXI DRESS COQUETTE VIETNAM",
-    image: "img/michie-maxi-dress-coquette1.png",
+    image: "img/michie-maxi-dress-coquette.png",
     image2: "img/michie-maxi-dress-coquette2.png",
-    shopeeUrl: "https://s.shopee.co.id/8V9zEYmuQr"
+    shopeeUrl: "https://s.shopee.co.id/1BNOVS4qg2"
   },
    {
     id: 34,
