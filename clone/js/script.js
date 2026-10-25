@@ -13,6 +13,10 @@
    name      : nama produk
    image     : URL gambar PNG rasio 1:1 (disarankan 1080x1080),
                atau file lokal di folder img, contoh: "img/indah-parfum.png"
+   image2    : (OPSIONAL) gambar kedua. Jika diisi, muncul tombol
+               panah di sisi kanan gambar untuk menggeser ke gambar
+               kedua. Jika tidak diisi, kartu tampil seperti biasa.
+               Contoh: image2: "img/indah-parfum-2.png",
    shopeeUrl : link produk Shopee yang asli
    ===================================================== */
 const products = [
@@ -22,9 +26,10 @@ const products = [
     category: "Atasan",
     name: "Pomelo Denim Peter Pan Collar Ruffle Trim Dress",
     image: "img/erine-denim-peter-van.png",
+    image2: "img/erine-denim-peter-van.png",
     shopeeUrl: "https://s.shopee.co.id/4VdoHi8Bxg"
   },
-   {
+  {
     id: 31,
     member: "Kimmy",
     category: "Atasan",
@@ -32,7 +37,7 @@ const products = [
     image: "img/kimmy-kaos-lace.png",
     shopeeUrl: "https://s.shopee.co.id/3VlH5kSQhF"
   },
-   {
+  {
     id: 30,
     member: "Oniel",
     category: "Atasan",
@@ -40,7 +45,7 @@ const products = [
     image: "img/oniel-vest-rajut-milkan.png",
     shopeeUrl: "https://s.shopee.co.id/3LRqtHpFiF"
   },
-   {
+  {
     id: 29,
     member: "Marsha",
     category: "Parfum",
@@ -48,7 +53,7 @@ const products = [
     image: "img/marsha-marc-jacobs-daisy-murakami-green.png",
     shopeeUrl: "https://s.shopee.co.id/6VOseykHLS"
   },
-   {
+  {
     id: 28,
     member: "Freya",
     category: "Atasan",
@@ -56,7 +61,7 @@ const products = [
     image: "img/freya-vrtcl-stripe-boxy-crop.png",
     shopeeUrl: "https://s.shopee.co.id/5q9BrYV2wp"
   },
-   {
+  {
     id: 27,
     member: "Aralie",
     category: "Parfum",
@@ -64,7 +69,7 @@ const products = [
     image: "img/aralie-eon-hmns.png",
     shopeeUrl: "https://s.shopee.co.id/6q1j373aFS"
   },
-   {
+  {
     id: 26,
     member: "Raisha",
     category: "Parfum",
@@ -72,7 +77,7 @@ const products = [
     image: "img/raisha-bath-body-works-into-the-night.png",
     shopeeUrl: "https://s.shopee.co.id/9V2UDqxTHt"
   },
-   {
+  {
     id: 25,
     member: "Gita",
     category: "Parfum",
@@ -80,7 +85,7 @@ const products = [
     image: "img/gita-versace-bright-edt.png",
     shopeeUrl: "https://s.shopee.co.id/70L9F76QlQ"
   },
-   {
+  {
     id: 24,
     member: "Marsha",
     category: "Parfum",
@@ -88,7 +93,7 @@ const products = [
     image: "img/marsha-tamburins-parfume.png",
     shopeeUrl: "https://s.shopee.co.id/7KxzdZ4axv"
   },
-   {
+  {
     id: 23,
     member: "Christy",
     category: "Atasan",
@@ -96,7 +101,7 @@ const products = [
     image: "img/christy-colorbox-liunic-contrast.png",
     shopeeUrl: "https://s.shopee.co.id/9V2UCpaalt"
   },
-   {
+  {
     id: 22,
     member: "Freya",
     category: "Aksesoris",
@@ -104,7 +109,7 @@ const products = [
     image: "img/freya-newera-9twenty.png",
     shopeeUrl: "https://s.shopee.co.id/LoFHo0Wia"
   },
-   {
+  {
     id: 21,
     member: "Lana",
     category: "Atasan",
@@ -112,7 +117,7 @@ const products = [
     image: "img/lana-mamamara-cardingan.png",
     shopeeUrl: "https://s.shopee.co.id/qkVsZBbFo"
   },
-   {
+  {
     id: 20,
     member: "Lily",
     category: "Aksesoris",
@@ -120,7 +125,7 @@ const products = [
     image: "img/lily-longchamp-3d-handbag.png",
     shopeeUrl: "https://s.shopee.co.id/4fxERJmg8W"
   },
-   {
+  {
     id: 19,
     member: "Ribka",
     category: "Atasan",
@@ -128,7 +133,7 @@ const products = [
     image: "img/ribka-sophistix-seren-assymetrical-blouse.png",
     shopeeUrl: "https://s.shopee.co.id/20wTGCFXzs"
   },
-   {
+  {
     id: 18,
     member: "Cynthia",
     category: "Aksesoris",
@@ -136,7 +141,7 @@ const products = [
     image: "img/cynthia-seiko-classic-jam.png",
     shopeeUrl: "https://s.shopee.co.id/9fLuOA77fV"
   },
-   {
+  {
     id: 17,
     member: "Fiony",
     category: "Aksesoris",
@@ -144,7 +149,7 @@ const products = [
     image: "img/fiony-samo-ondoh-pocket-utility.png",
     shopeeUrl: "https://s.shopee.co.id/BUp4WeNNM"
   },
-   {
+  {
     id: 16,
     member: "Erine",
     category: "Atasan",
@@ -152,7 +157,7 @@ const products = [
     image: "img/erine-v-neck-sweeter.png",
     shopeeUrl: "https://s.shopee.co.id/6L5SPbmO2i"
   },
-   {
+  {
     id: 15,
     member: "Greesel",
     category: "Atasan",
@@ -160,7 +165,7 @@ const products = [
     image: "img/greesel-studio-rue-lacy-tee-top.png",
     shopeeUrl: "https://s.shopee.co.id/2VsjqPnMOV"
   },
-   {
+  {
     id: 14,
     member: "Intan",
     category: "Sepatu",
@@ -168,7 +173,7 @@ const products = [
     image: "img/intan-colorbox-sepatu-ballet.png",
     shopeeUrl: "https://s.shopee.co.id/9APdmO4F8v"
   },
-   {
+  {
     id: 13,
     member: "Intan",
     category: "Aksesoris",
@@ -176,7 +181,7 @@ const products = [
     image: "img/intan-aozhli-tas-selempang.png",
     shopeeUrl: "https://s.shopee.co.id/2BFtRMDpIG"
   },
-   {
+  {
     id: 12,
     member: "Indah",
     category: "Atasan",
@@ -184,7 +189,7 @@ const products = [
     image: "img/indah-sejauh-mata-memandang-baju-santai.png",
     shopeeUrl: "https://s.shopee.co.id/2BFtQlastE"
   },
-   {
+  {
     id: 11,
     member: "Kimmy",
     category: "Atasan",
@@ -192,7 +197,7 @@ const products = [
     image: "img/kimmy-nudethelabel-cupid-top-hot.png",
     shopeeUrl: "https://s.shopee.co.id/AUv1Lua8hk"
   },
-   {
+  {
     id: 10,
     member: "Anindya",
     category: "Atasan",
@@ -200,7 +205,7 @@ const products = [
     image: "img/anindya-wearing-bena-xena-outer.png",
     shopeeUrl: "https://s.shopee.co.id/6VOsaKz4uD"
   },
-   {
+  {
     id: 9,
     member: "Kathrina",
     category: "Atasan",
@@ -208,7 +213,7 @@ const products = [
     image: "img/kathrina-neulla-lunet-suede.png",
     shopeeUrl: "https://s.shopee.co.id/qkVpiPtz9"
   },
-   {
+  {
     id: 8,
     member: "Marsha",
     category: "Atasan",
@@ -216,7 +221,7 @@ const products = [
     image: "img/marsha-adidas-sst-track-top-cloud-white.png",
     shopeeUrl: "https://s.shopee.co.id/qkVhiSGy2"
   },
-   {
+  {
     id: 7,
     member: "Freya",
     category: "Aksesoris",
@@ -224,7 +229,7 @@ const products = [
     image: "img/freya-marjour-embroidered-cap.png",
     shopeeUrl: "https://s.shopee.co.id/1LgmIN7KNd"
   },
-   {
+  {
     id: 6,
     member: "Cynthia",
     category: "Sepatu",
@@ -232,7 +237,7 @@ const products = [
     image: "img/cynthia-adidas-adizero-pacer.png",
     shopeeUrl: "https://s.shopee.co.id/3g4h43CtwO"
   },
-   {
+  {
     id: 5,
     member: "Jessi",
     category: "Parfum",
@@ -290,6 +295,24 @@ const searchEl = document.getElementById("search");
 const emptyEl = document.getElementById("empty");
 const countEl = document.getElementById("count");
 
+/* Membuat satu slide (satu gambar) */
+function createSlide(src, p, label, eager) {
+  const slide = document.createElement("div");
+  slide.className = "slide";
+
+  const img = document.createElement("img");
+  img.src = src;
+  img.alt = p.name + " rekomendasi " + p.member + " JKT48, kategori " + p.category + label;
+  img.width = 1080;
+  img.height = 1080;
+  img.loading = eager ? "eager" : "lazy"; // gambar di luar layar awal dimuat belakangan
+  img.decoding = "async";
+  img.onerror = function () { img.onerror = null; img.src = FALLBACK_IMG; };
+
+  slide.appendChild(img);
+  return slide;
+}
+
 function createCard(p, index) {
   const a = document.createElement("a");
   a.className = "card";
@@ -301,19 +324,39 @@ function createCard(p, index) {
   const thumb = document.createElement("div");
   thumb.className = "thumb";
 
-  const img = document.createElement("img");
-  img.src = p.image;
-  img.alt = p.name + " rekomendasi " + p.member + " JKT48, kategori " + p.category;
-  img.width = 1080;
-  img.height = 1080;
-  img.loading = index < 5 ? "eager" : "lazy"; // gambar di luar layar awal dimuat belakangan
-  img.decoding = "async";
-  img.onerror = function () { img.onerror = null; img.src = FALLBACK_IMG; };
+  const track = document.createElement("div");
+  track.className = "slides";
+  track.appendChild(createSlide(p.image, p, "", index < 5));
 
   const badge = document.createElement("span");
   badge.className = "badge";
   badge.textContent = p.category;
-  thumb.append(img, badge);
+
+  thumb.append(track, badge);
+
+  // Slide gambar kedua (hanya jika image2 diisi)
+  if (p.image2) {
+    track.appendChild(createSlide(p.image2, p, " (gambar 2)", false));
+
+    let current = 0;
+    const nav = document.createElement("button");
+    nav.type = "button";
+    nav.className = "slide-nav";
+    nav.textContent = "\u203A"; // ›
+    nav.setAttribute("aria-label", "Lihat gambar kedua");
+
+    nav.addEventListener("click", function (e) {
+      e.preventDefault();   // jangan buka link Shopee
+      e.stopPropagation();
+      current = current === 0 ? 1 : 0;
+      track.style.transform = "translateX(" + (-current * 100) + "%)";
+      nav.classList.toggle("prev", current === 1);
+      nav.textContent = current === 1 ? "\u2039" : "\u203A"; // ‹ atau ›
+      nav.setAttribute("aria-label", current === 1 ? "Kembali ke gambar pertama" : "Lihat gambar kedua");
+    });
+
+    thumb.appendChild(nav);
+  }
 
   const info = document.createElement("div");
   info.className = "info";
