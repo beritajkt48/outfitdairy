@@ -21,6 +21,15 @@
    ===================================================== */
 const products = [
   {
+    id: 38,
+    member: "Bella",
+    category: "Atasan",
+    name: "COLORBOX - Oversized Short Sleeve Lace Jersey",
+    image: "img/bella-colorbox-oversize-short-sleeve-lace-jersey.png",
+    image2: "img/bella-colorbox-oversize-short-sleeve-lace-jersey2.png",
+    shopeeUrl: "https://s.shopee.co.id/4VdrniH9Kk"
+  },
+   {
     id: 37,
     member: "Freya",
     category: "Atasan",
