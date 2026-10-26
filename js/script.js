@@ -21,6 +21,15 @@
    ===================================================== */
 const products = [
   {
+    id: 39,
+    member: "Jemima",
+    category: "Atasan",
+    name: "KEYCLOTHINGLINE - Taylor Dress",
+    image: "img/jemima-keyclothingline-taylor-dress.png",
+    image2: "img/jemima-keyclothingline-taylor-dress2.png",
+    shopeeUrl: "https://s.shopee.co.id/2qVdp9Wtym"
+  },
+   {
     id: 38,
     member: "Bella",
     category: "Atasan",
